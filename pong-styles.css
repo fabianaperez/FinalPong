@@ -14,18 +14,18 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
-  background-image: url("funni_chicken.jpg");
+  background-image: url("datenight.png");
   background-size: cover;
 }
 
 #left-paddle {
-  background-color: cyan;
+  background-color: peachpuff;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: yellow;
+  background-color: lawngreen;
   right: 10px;
 }
 
@@ -76,7 +76,7 @@ body {
 .ball {
   width: 40px;
   height: 40px;
-  background-image: url("ballin.svg");
+  background-image: url("heart-ball.png");
   border-radius: 20px;
   position: absolute;
   left: 100px;
@@ -87,6 +87,7 @@ body {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
+  color: white;
 }
 
 #left-score {
